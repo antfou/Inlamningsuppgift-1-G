@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/good_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+} 
+.sub-container{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 80vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #000000;
+
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+
+    padding-left: 5%;
+    margin-top: auto;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+nav{
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.navbar-links{
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: -1px 2px 10px;
+
+    list-style: none;
+    margin: 0px 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-pic-of-anton{
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.title{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+
+    font-size: 100px;
+}
+.external-links{
+    padding-left: 4%;
+    padding-right: 5%;
+    list-style: none;
+
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    text-align: left;
+}
+.external-links li{
+
+    margin-bottom: 1%;
+}
+
+.links-header{
+    position:relative;
+    color: #fff;
+    font-size: 85px;
+    text-shadow: 0 0 5px #0000;
+}
+
+.link-to-socials{
+    width: 50px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    box-shadow: 1px 2px 10px;
+
+    list-style: none;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000; 
+
+    background-color: #fff;
+}
+.about{
+    margin: auto;
+    text-align: center;
+    width: 450px;
+}
+.image-of-anton{
+    box-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    align-items: center;
+    height: 300px;
+    border-radius: 150px;
+}
+.about-header{
+    text-shadow: 0 0 3px #FFFF, 0 0 5px #fff;
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 1%;
+}
+.about-text{
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 22px;
+    width: 450px;
+    color: #ffffff;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+.sub-container p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+} 
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12;
+    padding: 12px 0;
+    background: #ffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/project_1_screenshot.png);
+}
+.card2{
+    background-image: url(images/project_2_screenshot.png);
+}
+.card3{
+    background-image: url(images/project_3_screenshot.png);
+}
+.card4{
+    background-image: url(images/project_4_screenshot.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+button:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000;
+}
+.card p{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+.my-projects-introduction{
+    padding-top: 1%;
+    width: 50%;
+}
